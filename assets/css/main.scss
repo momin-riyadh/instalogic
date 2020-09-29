@@ -8,6 +8,7 @@ $white-color:#ffffff;
 $primary-text-color:#393535;
 $primary-paragraph-color:#505050;
 $primary-header-color:#393535;
+$footer-copyright-color:#777777;
 
 /* ===================
         Main Footer
@@ -105,4 +106,14 @@ table.ri-schedule {
 
   }
 
+}
+
+.ri-footer-copyright{
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  width: 100%;
+  min-height: 60px;
+  align-items: center;
+  color: $footer-copyright-color;
 }
