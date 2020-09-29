@@ -21,4 +21,30 @@ $primary-header-color:#393535;
   width: 100%;
   display: block;
   padding: 3em 0;
+  font-size: 0.9rem;
+}
+
+
+
+table.ri-address {
+  font-size: 0.9rem;
+  tr{
+    color: $white-color;
+    display: flex;
+    text-align: left;
+    strong{
+      width: 80px;
+      display: inline-block;
+      margin-right: 2rem;
+    }
+  }
+
+  .address{
+    + span {
+      strong {
+      display: inline-block;
+      margin-right: 2rem;
+    }
+    }
+  }
 }

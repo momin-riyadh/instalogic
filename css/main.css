@@ -13,6 +13,25 @@
   width: 100%;
   display: block;
   padding: 3em 0;
+  font-size: 0.9rem;
+}
+
+table.ri-address {
+  font-size: 0.9rem;
+}
+table.ri-address tr {
+  color: #ffffff;
+  display: flex;
+  text-align: left;
+}
+table.ri-address tr strong {
+  width: 80px;
+  display: inline-block;
+  margin-right: 2rem;
+}
+table.ri-address .address + span strong {
+  display: inline-block;
+  margin-right: 2rem;
 }
 
 /*# sourceMappingURL=main.css.map */
