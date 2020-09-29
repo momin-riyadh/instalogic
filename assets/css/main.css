@@ -5,7 +5,7 @@
         Main Footer
    =================== */
 .main-footer-area {
-  background-image: url("../img/footer_bg.png");
+  background-image: url("../../img/footer_bg.png");
   background-color: #1d2124;
   background-size: cover;
   background-position: center;
@@ -30,6 +30,24 @@ table.ri-address tr strong {
   margin-right: 2rem;
 }
 table.ri-address .address + span strong {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+table.ri-schedule {
+  font-size: 0.9rem;
+}
+table.ri-schedule tr {
+  color: #ffffff;
+  display: flex;
+  text-align: left;
+}
+table.ri-schedule tr strong {
+  width: 80px;
+  display: inline-block;
+  margin-right: 2rem;
+}
+table.ri-schedule .address + span strong {
   display: inline-block;
   margin-right: 2rem;
 }

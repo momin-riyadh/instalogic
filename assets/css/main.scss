@@ -13,7 +13,7 @@ $primary-header-color:#393535;
         Main Footer
    =================== */
 .main-footer-area{
-  background-image: url("../img/footer_bg.png");
+  background-image: url("../../img/footer_bg.png");
   background-color: #1d2124;
   background-size: cover;
   background-position: center;
@@ -27,6 +27,29 @@ $primary-header-color:#393535;
 
 
 table.ri-address {
+  font-size: 0.9rem;
+  tr{
+    color: $white-color;
+    display: flex;
+    text-align: left;
+    strong{
+      width: 80px;
+      display: inline-block;
+      margin-right: 2rem;
+    }
+  }
+
+  .address{
+    + span {
+      strong {
+      display: inline-block;
+      margin-right: 2rem;
+    }
+    }
+  }
+}
+
+table.ri-schedule {
   font-size: 0.9rem;
   tr{
     color: $white-color;
