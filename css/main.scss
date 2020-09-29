@@ -1,4 +1,19 @@
-*{
-  margin: 0;
-  padding: 0;
+
+/* ========================
+       Common Variables
+   ======================== */
+$primary-color:#ff7314;
+$primary-background:#363232;
+$white-color:#ffffff;
+$primary-text-color:#393535;
+$primary-paragraph-color:#505050;
+$primary-header-color:#393535;
+
+/* ===================
+        Main Footer
+   =================== */
+.main-footer-area{
+  background: url("img/footer_bg.png") repeat-x scroll 0 0;
+  background-size: cover;
+
 }

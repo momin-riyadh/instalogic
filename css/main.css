@@ -1,6 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
+/* ========================
+       Common Variables
+   ======================== */
+/* ===================
+        Main Footer
+   =================== */
+.main-footer-area {
+  background: url("img/footer_bg.png") repeat-x scroll 0 0;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=main.css.map */
