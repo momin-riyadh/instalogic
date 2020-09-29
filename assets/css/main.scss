@@ -1,28 +1,24 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
-
 
 
 /* ========================
        Common Variables
    ======================== */
-$primary-color:#ff7314;
-$primary-background:#363232;
-$white-color:#ffffff;
-$primary-text-color:#393535;
-$primary-paragraph-color:#505050;
-$primary-header-color:#393535;
-$footer-copyright-color:#777777;
+$primary-color: #ff7314;
+$primary-background: #363232;
+$white-color: #ffffff;
+$primary-text-color: #393535;
+$primary-paragraph-color: #505050;
+$primary-header-color: #393535;
+$footer-copyright-color: #777777;
 
-$font-ralway:'Raleway', sans-serif;
-
-
+$font-ralway: 'Raleway', sans-serif;
 
 
 /* ===================
        Testimonial
    =================== */
-.ri-testimonial{
+.ri-testimonial {
   background-image: url("../images/footer_bg.png");
   background-size: cover;
   background-position: center;
@@ -30,44 +26,62 @@ $font-ralway:'Raleway', sans-serif;
   color: $white-color;
 }
 
-.testimonial-box{
+.testimonial-box {
   position: relative;
   background-image: url("../images/testimonial_bg.png");
   background-size: cover;
-  padding: 1rem;
+  padding: 1.5rem;
   background-position: center;
 }
 
-p.testimonial-text{
+p.testimonial-text {
   font-size: 0.9rem;
 }
 
-
+.quote-icon {
+  position: absolute;
+  left: auto;
+  right: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  background: $primary-color;
+  border-radius: 50%;
+  text-align: center;
+  img {
+    width: 30px;
+    height: auto;
+    object-fit: contain;
+    margin-top: 12px;
+    padding: 0.3rem;
+  }
+}
 
 
 /* ===================
        Bottom CTA
    =================== */
-.bottom-cta-area{
+.bottom-cta-area {
   background: $primary-color;
   padding: 1rem 0;
   color: $white-color;
 }
 
-.bottom-cta{
+.bottom-cta {
   display: flex;
   justify-content: space-between;
   align-items: center;
-   span:first-of-type {
-     text-transform: uppercase;
-     display: inline-block;
-     font-size: 1.5rem;
-     font-family: $font-ralway;
-     font-weight: bold;
-   }
 
-  span{
-    a{
+  span:first-of-type {
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family: $font-ralway;
+    font-weight: bold;
+  }
+
+  span {
+    a {
       transition: all 0.3s ease-in-out;
       border: 1px solid $white-color;
       padding: 0.5rem;
@@ -77,7 +91,8 @@ p.testimonial-text{
       text-align: center;
       color: #ffffff;
       text-decoration: none;
-      &:hover{
+
+      &:hover {
         background: $white-color;
         color: $primary-color;
       }
@@ -87,12 +102,10 @@ p.testimonial-text{
 }
 
 
-
-
 /* ===================
         Main Footer
    =================== */
-.main-footer-area{
+.main-footer-area {
   background-image: url("../images/footer_bg.png");
   background-size: cover;
   background-position: center;
@@ -101,68 +114,73 @@ p.testimonial-text{
   font-size: 0.9rem;
 }
 
-.main-footer{
+.main-footer {
   border-bottom: 1px solid #505050;
   padding: 4rem 0;
 }
 
 
-
 table.ri-address {
   font-size: 0.9rem;
-  .address{
+
+  .address {
     margin-bottom: 2rem;
   }
-  tr{
+
+  tr {
     color: $white-color;
     display: flex;
     text-align: left;
-    strong{
+
+    strong {
       width: 80px;
       display: inline-block;
       margin-right: 2rem;
     }
   }
 
-  .address{
+  .address {
     + span {
       strong {
-      display: inline-block;
-      margin-right: 2rem;
-    }
+        display: inline-block;
+        margin-right: 2rem;
+      }
     }
   }
 }
 
 table.ri-schedule {
   font-size: 0.9rem;
-  tr{
+
+  tr {
     color: $white-color;
     display: flex;
     text-align: left;
-    strong{
+
+    strong {
       width: 80px;
       display: inline-block;
       margin-right: 2rem;
     }
   }
 
-  .address{
+  .address {
     + span {
       strong {
-      display: inline-block;
-      margin-right: 2rem;
-    }
+        display: inline-block;
+        margin-right: 2rem;
+      }
     }
   }
 }
 
-.footer-social{
+.footer-social {
   margin-top: 2rem;
   width: 120px;
   display: inline-flex;
   justify-content: space-between;
-  a{
+
+  a {
     transition: all 0.3s ease-in-out;
     display: inline-block;
     font-size: 1rem;
@@ -171,11 +189,12 @@ table.ri-schedule {
     border: 1px solid $primary-color;
     border-radius: 50%;
     text-align: center;
-    &:hover{
+
+    &:hover {
       background: $primary-color;
     }
 
-    i.fa{
+    i.fa {
       color: $white-color;
       display: inline-block;
       text-align: center;
@@ -186,7 +205,7 @@ table.ri-schedule {
 
 }
 
-.ri-footer-copyright{
+.ri-footer-copyright {
   display: flex;
   justify-content: space-between;
   font-size: 0.8rem;
