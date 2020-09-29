@@ -30,6 +30,18 @@ $font-ralway:'Raleway', sans-serif;
   color: $white-color;
 }
 
+.testimonial-box{
+  position: relative;
+  background-image: url("../images/testimonial_bg.png");
+  background-size: cover;
+  padding: 1rem;
+  background-position: center;
+}
+
+p.testimonial-text{
+  font-size: 0.9rem;
+}
+
 
 
 
