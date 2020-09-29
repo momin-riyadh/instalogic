@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="011c1fee-882c-4216-94df-efe2bf86b840" name="Default Changelist" comment="" />
+    <list default="true" id="011c1fee-882c-4216-94df-efe2bf86b840" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1i9DzvxBXxYPRL9n6ActixMIzIG" />
   <component name="ProjectViewState">
@@ -16,8 +21,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="git add ." />
+      <command value="git commit -am &quot;fix and deploy&quot;" />
+      <command value="git push" />
+    </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -28,7 +46,8 @@
       <option name="presentableId" value="Default" />
       <updated>1601311180169</updated>
       <workItem from="1601311201891" duration="315000" />
-      <workItem from="1601311547516" duration="538000" />
+      <workItem from="1601311547516" duration="1419000" />
+      <workItem from="1601345651731" duration="602000" />
     </task>
     <servers />
   </component>
@@ -40,26 +59,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="5" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1601311514044" />
-    <state width="1345" height="172" key="GridCell.Tab.0.bottom" timestamp="1601311516348">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601312288858">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="172" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601311516348" />
-    <state width="1345" height="172" key="GridCell.Tab.0.center" timestamp="1601311516348">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601312288858" />
+    <state width="1345" height="172" key="GridCell.Tab.0.bottom" timestamp="1601314462337">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="172" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601311516348" />
-    <state width="1345" height="172" key="GridCell.Tab.0.left" timestamp="1601311516347">
+    <state width="1345" height="172" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601314462337" />
+    <state width="1345" height="172" key="GridCell.Tab.0.center" timestamp="1601314462336">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="172" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601311516347" />
-    <state width="1345" height="172" key="GridCell.Tab.0.right" timestamp="1601311516348">
+    <state width="1345" height="172" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601314462336" />
+    <state width="1345" height="172" key="GridCell.Tab.0.left" timestamp="1601314462336">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="172" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601311516348" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1601311418514">
+    <state width="1345" height="172" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601314462336" />
+    <state width="1345" height="172" key="GridCell.Tab.0.right" timestamp="1601314462337">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1601311418514" />
+    <state width="1345" height="172" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601314462337" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1601314450555">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1601314450555" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601311439645">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
