@@ -3,6 +3,47 @@
        Common Variables
    ======================== */
 /* ===================
+       Welcome Area
+   =================== */
+.ri-welcome-area {
+  padding: 4rem 0;
+}
+
+a.ri-btn-solid {
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #ff7314;
+  padding: 0.5rem;
+  border-radius: 40px;
+  width: 140px;
+  display: inline-block;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #ff7314;
+}
+a.ri-btn-solid:hover {
+  background: #ffffff;
+  color: #ff7314;
+}
+
+a.ri-btn-outline {
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #ff7314;
+  padding: 0.5rem;
+  border-radius: 40px;
+  width: 140px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  background: #ffffff;
+  color: #ff7314;
+}
+a.ri-btn-outline:hover {
+  color: #ffffff;
+  background-color: #ff7314;
+}
+
+/* ===================
        ri-overview
    =================== */
 .ri-overview-area {
