@@ -245,6 +245,7 @@ p.testimonial-text {
 
 .instagram-block-area{
   padding: 5rem 0;
+  cursor: grab;
 }
 
 .instagram-badge{
@@ -253,6 +254,12 @@ p.testimonial-text {
   top:50%;
   transform: translate(-50%, -50%);
   z-index: 5;
+  cursor: pointer;
+
+  img {
+    width: 120px;
+    height: auto;
+  }
 }
 
 
