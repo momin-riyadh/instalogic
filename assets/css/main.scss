@@ -36,8 +36,8 @@ $font-ralway: 'Raleway', sans-serif;
 
 .ri-topbar{
   display:flex;
-  height: 100%;
-  max-width: 350px;
+  height: 45px;
+  width: 350px;
   justify-content: space-between;
   align-items: center;
   a{
@@ -50,9 +50,8 @@ $font-ralway: 'Raleway', sans-serif;
 a.request-quote-btn{
   transition: all 0.3s ease-in-out;
   border: 1px solid $primary-color;
-  padding: 0.3rem;
+  padding: 0.3rem 0.8rem;
   border-radius: 40px;
-  width: 140px;
   display: inline-block;
   text-align: center;
   color: #ffffff;
@@ -65,7 +64,23 @@ a.request-quote-btn{
 
 }
 
-
+/* ===================
+       Navigation
+   =================== */
+.ri-navigation-area{
+  display: flex;
+}
+.ri-nav{
+  ul{
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+  li{
+    list-style: none;
+    float: left;
+  }
+}
 
 
 
