@@ -3,8 +3,21 @@
        Common Variables
    ======================== */
 /* ===================
-       Main Slider/ Banner
+       Topbar
    =================== */
+.ri-topbar-area {
+  height: 50px;
+  background-image: url("../images/orange_bg.png"), url("../images/nav_bg.png");
+  background-position: top left, top right;
+  /* this positions the second image */
+  background-repeat: no-repeat;
+  /* this applies to both images */
+  background-size: 20%, 100%;
+}
+
+/* ==========================
+       Main Slider/ Banner
+   ========================== */
 .ri-main-banner {
   position: relative;
   width: 100%;
