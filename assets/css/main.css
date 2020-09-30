@@ -51,6 +51,9 @@ a.request-quote-btn:hover {
   display: flex;
 }
 
+.ri-nav {
+  display: flex;
+}
 .ri-nav ul {
   margin: 0;
   padding: 0;
