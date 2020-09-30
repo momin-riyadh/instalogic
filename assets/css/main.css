@@ -2,6 +2,9 @@
 /* ========================
        Common Variables
    ======================== */
+/* ===================
+       ri-overview
+   =================== */
 .ri-overview-area {
   background-image: url("../images/overview_bg.png");
   background-repeat: repeat-x;
@@ -21,7 +24,6 @@
 
 .ri-statistics {
   display: inline-flex;
-  align-items: center;
 }
 
 .ri-statistics-text {
@@ -30,6 +32,16 @@
 }
 .ri-statistics-text h3 {
   font-size: 2rem;
+  line-height: 1;
+  margin-top: -5px;
+}
+.ri-statistics-text p {
+  font-size: 0.8rem;
+}
+
+.ri-statistics-icon img {
+  width: 50px;
+  height: auto;
 }
 
 /* ===================

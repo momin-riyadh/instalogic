@@ -14,7 +14,9 @@ $footer-copyright-color: #777777;
 
 $font-ralway: 'Raleway', sans-serif;
 
-
+/* ===================
+       ri-overview
+   =================== */
 .ri-overview-area {
   background-image: url("../images/overview_bg.png");
   background-repeat: repeat-x;
@@ -34,7 +36,6 @@ $font-ralway: 'Raleway', sans-serif;
 
 .ri-statistics {
   display: inline-flex;
-  align-items: center;
 }
 
 .ri-statistics-text {
@@ -42,6 +43,18 @@ $font-ralway: 'Raleway', sans-serif;
   text-align: center;
   h3 {
    font-size: 2rem;
+    line-height: 1;
+    margin-top: -5px;
+  }
+  p{
+    font-size: 0.8rem;
+  }
+}
+
+.ri-statistics-icon{
+  img{
+    width: 50px;
+    height: auto;
   }
 }
 
