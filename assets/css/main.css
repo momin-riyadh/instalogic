@@ -93,6 +93,36 @@ a.ri-btn-outline:hover {
 }
 
 /* ===================
+       Why Choose Us
+   =================== */
+.why-choose-us {
+  background-image: url("../images/overview_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat-x;
+  width: 100%;
+}
+
+.ri-promo-content {
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+.ri-promo-content h2 {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.ri-promo-content p {
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+/* ===================
        Testimonial
    =================== */
 .ri-testimonial {

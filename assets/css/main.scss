@@ -118,6 +118,37 @@ a.ri-btn-outline {
 
 
 /* ===================
+       Why Choose Us
+   =================== */
+.why-choose-us {
+  background-image: url("../images/overview_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat-x;
+  width: 100%;
+}
+
+.ri-promo-content{
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  h2{
+    color: $white-color;
+    font-family: $font-ralway;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  p{
+    color: $white-color;
+    font-size: 0.9rem;
+  }
+}
+
+
+/* ===================
        Testimonial
    =================== */
 .ri-testimonial {
