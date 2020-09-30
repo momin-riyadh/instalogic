@@ -176,7 +176,7 @@
   left: 0;
   right: auto;
 }
-.dinswiper-button-prev:after,
+.swiper-button-prev:after,
 .swiper-container-rtl .swiper-button-next:after {
   content: 'prev';
 }
