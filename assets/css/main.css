@@ -57,12 +57,12 @@ a.request-quote-btn:hover {
 .ri-nav {
   display: flex;
 }
-.ri-nav ul {
+.ri-nav nav ul {
   margin: 0;
   padding: 0;
   display: block;
 }
-.ri-nav li {
+.ri-nav nav li {
   list-style: none;
   float: left;
 }
