@@ -47,10 +47,11 @@ a.request-quote-btn:hover {
 /* ===================
        Navigation
    =================== */
-.ri-navigation-area {
+.ri-navigation {
   display: flex;
   height: 70px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .ri-nav {

@@ -67,10 +67,11 @@ a.request-quote-btn{
 /* ===================
        Navigation
    =================== */
-.ri-navigation-area{
+.ri-navigation{
   display: flex;
   height: 70px;
   justify-content: space-between;
+  align-items: center;
 }
 .ri-nav{
   display: flex;
@@ -84,6 +85,8 @@ a.request-quote-btn{
     list-style: none;
     float: left;
   }
+
+
 }
 
 
