@@ -30,7 +30,20 @@ $font-ralway: 'Raleway', sans-serif;
   background-repeat:
     no-repeat; /* this applies to both images */
 
-  background-size: 20%, 100%;
+  background-size: 30%, 100%;
+}
+
+.ri-topbar{
+  display:flex;
+  height: 100%;
+  padding: 0.6rem 0;
+  width: 300px;
+  justify-content: space-between;
+  a{
+    text-decoration: none;
+    color: $white-color;
+    font-size: 0.8rem;
+  }
 }
 
 
