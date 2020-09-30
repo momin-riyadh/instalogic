@@ -407,7 +407,7 @@ p.testimonial-text {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-height: 250px;
+  min-height: 150px;
 }
 @media (min-width: 601px) {
   .bottom-cta {
@@ -415,6 +415,7 @@ p.testimonial-text {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    min-height: auto;
   }
 }
 .bottom-cta span:first-of-type {

@@ -471,13 +471,14 @@ p.testimonial-text {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-height: 250px;
+  min-height: 150px;
 
   @media (min-width: 601px) {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    min-height: auto;
   }
 
   span:first-of-type {
