@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -211,7 +212,8 @@
       <div class="col-lg-6">
         <div class="ri-promo-content">
           <h2>Why Choose Us?</h2>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+            aperiam, eaque ipsa quae illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
         </div>
       </div>
 
@@ -356,8 +358,26 @@
            Instagram Block
     =============================-->
 
-<section>
-  Instagram block
+<section class="instagram-block-area">
+
+  <!-- Slider main container -->
+  <div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <img class="img-fluid" src="assets/images/insta_placeholder.png" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="assets/images/insta_placeholder.png" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="assets/images/insta_placeholder.png" alt="">
+      </div>
+
+    </div>
+  </div>
+
 </section>
 
 
@@ -453,8 +473,19 @@
 
 
 <script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <script src="assets/js/plugins.js"></script>
 <script src="assets/js/main.js"></script>
+
+<script>
+  var mySwiper = new Swiper('.swiper-container', {
+    slidesPerView: 5,
+    spaceBetween: 30,
+    slidesPerGroup: 3,
+    loop: true,
+    loopFillGroupWithBlank: true,
+  })
+</script>
 
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 <script>

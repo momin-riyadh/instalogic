@@ -167,6 +167,9 @@ a.ri-btn-outline:hover {
 }
 
 /* ===================
+       Roof Types
+   =================== */
+/* ===================
        Testimonial
    =================== */
 .ri-testimonial {
@@ -206,6 +209,10 @@ p.testimonial-text {
   object-fit: contain;
   margin-top: 12px;
   padding: 0.3rem;
+}
+
+.instagram-block-area {
+  padding: 5rem 0;
 }
 
 /* ===================
