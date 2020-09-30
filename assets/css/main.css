@@ -73,15 +73,17 @@ a.request-quote-btn:hover {
   padding: 1rem;
   color: #393535;
 }
+.ri-nav nav a:hover {
+  transition: all 0.3s ease-in-out;
+}
 .ri-nav nav a:hover:after {
+  transition: all 0.3s ease-in-out;
   content: "";
   position: absolute;
   top: 40px;
-  /* <-- change value to better position */
   left: 50%;
   /* centers the element's left edge */
-  margin-left: -20px;
-  /* <-- moves it back half it's own width */
+  transform: translateX(-50%);
   width: 0;
   /* <-- don't need unit on 0 */
   height: 0;

@@ -93,12 +93,17 @@ a.request-quote-btn {
       text-decoration: none;
       padding: 1rem;
       color: $primary-header-color;
+      &:hover{
+        transition: all 0.3s ease-in-out;
+      }
       &:hover:after{
+        transition: all 0.3s ease-in-out;
           content: "";
           position: absolute;
-          top: 40px; /* <-- change value to better position */
+          top: 40px;
           left: 50%; /* centers the element's left edge */
-          margin-left: -20px; /* <-- moves it back half it's own width */
+          transform: translateX(-50%);
+          //margin-left: -20px; /* <-- moves it back half it's own width */
           width: 0; /* <-- don't need unit on 0 */
           height: 0; /* <-- don't need unit on 0 */
           xxmargin: 0px auto; /* <-- eliminate, use above margin */
