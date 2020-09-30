@@ -215,6 +215,14 @@ p.testimonial-text {
   padding: 5rem 0;
 }
 
+.instagram-badge {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
 /* ===================
        Bottom CTA
    =================== */
