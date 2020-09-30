@@ -134,6 +134,7 @@ a.request-quote-btn:hover {
    ========================== */
 .ri-banner-area {
   position: relative;
+  overflow: hidden;
 }
 
 .ri-main-banner {
@@ -156,6 +157,7 @@ a.request-quote-btn:hover {
    =================== */
 .ri-welcome-area {
   padding: 4rem 0;
+  overflow: hidden;
 }
 
 a.ri-btn-solid {
@@ -202,6 +204,7 @@ a.ri-btn-outline:hover {
   width: 100%;
   background-position: center;
   min-height: 200px;
+  overflow: hidden;
 }
 
 .ri-statistics-area {
@@ -250,6 +253,7 @@ a.ri-btn-outline:hover {
   background-position: center;
   background-repeat: repeat-x;
   width: 100%;
+  overflow: hidden;
 }
 
 .ri-promo-content {
@@ -327,6 +331,7 @@ a.ri-btn-outline:hover {
   background-position: center;
   padding: 4rem 0;
   color: #ffffff;
+  overflow: hidden;
 }
 
 .testimonial-box {
@@ -385,6 +390,7 @@ p.testimonial-text {
   background: #ff7314;
   padding: 1rem 0;
   color: #ffffff;
+  overflow: hidden;
 }
 
 .bottom-cta {
@@ -425,6 +431,7 @@ p.testimonial-text {
   width: 100%;
   display: block;
   font-size: 0.9rem;
+  overflow: hidden;
 }
 
 .main-footer {
