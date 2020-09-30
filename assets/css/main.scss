@@ -15,6 +15,45 @@ $footer-copyright-color: #777777;
 $font-ralway: 'Raleway', sans-serif;
 
 
+.ri-overview-area {
+  background-image: url("../images/overview_bg.png");
+  background-repeat: repeat-x;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  min-height: 200px;
+}
+
+.ri-statistics-area {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 200px;
+}
+
+.ri-statistics {
+  display: inline-flex;
+  align-items: center;
+}
+
+.ri-statistics-text {
+  color: $white-color;
+  text-align: center;
+  h3 {
+   font-size: 2rem;
+  }
+}
+
+
+/* ===================
+       What We Do
+   =================== */
+.ri-what-we {
+  margin: 4rem 0;
+}
+
+
 /* ===================
        Testimonial
    =================== */
@@ -48,6 +87,7 @@ p.testimonial-text {
   background: $primary-color;
   border-radius: 50%;
   text-align: center;
+
   img {
     width: 30px;
     height: auto;

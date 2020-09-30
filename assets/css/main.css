@@ -2,6 +2,43 @@
 /* ========================
        Common Variables
    ======================== */
+.ri-overview-area {
+  background-image: url("../images/overview_bg.png");
+  background-repeat: repeat-x;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  min-height: 200px;
+}
+
+.ri-statistics-area {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 200px;
+}
+
+.ri-statistics {
+  display: inline-flex;
+  align-items: center;
+}
+
+.ri-statistics-text {
+  color: #ffffff;
+  text-align: center;
+}
+.ri-statistics-text h3 {
+  font-size: 2rem;
+}
+
+/* ===================
+       What We Do
+   =================== */
+.ri-what-we {
+  margin: 4rem 0;
+}
+
 /* ===================
        Testimonial
    =================== */
