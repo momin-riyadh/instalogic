@@ -99,6 +99,10 @@ a.request-quote-btn:hover {
   vertical-align: middle;
 }
 
+.ri-logo a img {
+  width: auto;
+}
+
 /* ==========================
        Main Slider/ Banner
    ========================== */

@@ -86,7 +86,8 @@ a.request-quote-btn {
       list-style: none;
       float: left;
     }
-    a{
+
+    a {
       text-decoration: none;
       padding: 1rem;
       color: $primary-header-color;
@@ -95,7 +96,7 @@ a.request-quote-btn {
 
 }
 
-.ri-top-social{
+.ri-top-social {
   width: 120px;
   display: inline-flex;
   justify-content: space-between;
@@ -124,6 +125,21 @@ a.request-quote-btn {
     }
 
   }
+
+}
+
+
+//Logo
+
+.ri-logo {
+  a {
+    img {
+      margin-top: -60px;
+      height: 70px;
+      width: auto;
+    }
+  }
+}
 
 }
 
