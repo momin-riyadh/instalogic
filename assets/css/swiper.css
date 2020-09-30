@@ -152,8 +152,9 @@
   justify-content: center;
   color: var(--swiper-navigation-color, var(--swiper-theme-color));
   background: #1e1e1f;
-  border-radius: 2px;
-  padding: 10px;
+  border-radius: 5px;
+  padding: 5px 8px;
+  display: inline-table;
 }
 .swiper-button-prev.swiper-button-disabled,
 .swiper-button-next.swiper-button-disabled {
