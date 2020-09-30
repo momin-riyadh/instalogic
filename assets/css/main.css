@@ -49,6 +49,8 @@ a.request-quote-btn:hover {
    =================== */
 .ri-navigation-area {
   display: flex;
+  height: 70px;
+  justify-content: space-between;
 }
 
 .ri-nav {
