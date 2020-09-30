@@ -265,8 +265,35 @@
            Roof Types
     =============================-->
 
-<section>
-  carousal
+<section class="roof-tile-area my-5">
+  <div class="roof-tile">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <img class="img-fluid" src="assets/images/tile_one.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="assets/images/tile_two.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="assets/images/tile_three.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="assets/images/tile_one.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="assets/images/tile_two.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img class="img-fluid" src="assets/images/tile_three.jpg" alt="">
+      </div>
+
+    </div>
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
 </section>
 
 
@@ -475,7 +502,7 @@
         </div>
 
         <div class="col-12 col-md-4 mt-5 mt-md-0 text-md-left">
-          <div class="ri-footer-logo float-none float-lg-left">
+          <div class="ri-footer-logo float-none float-md-right">
             <a href="">
               <img class="img-fluid" src="./assets/images/footer_logo.png" alt="roofing inc logo">
             </a>
@@ -519,6 +546,39 @@
   glide.mount()
 </script>
 
+
+<script>
+
+  var roofTile = new Swiper('.roof-tile', {
+    slidesPerView: 5,
+    spaceBetween: 30,
+    slidesPerGroup: 1,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    breakpoints: {
+      // when window width is >= 320px
+      320: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+      // when window width is >= 480px
+      480: {
+        slidesPerView: 3,
+        spaceBetween: 30
+      },
+      // when window width is >= 640px
+      640: {
+        slidesPerView: 4,
+        spaceBetween: 40
+      },
+      1000: {
+        slidesPerView: 5,
+        spaceBetween: 40
+      }
+    }
+  })
+</script>
+
 <script>
   var mySwiper = new Swiper('.swiper-container', {
     slidesPerView: 6,
@@ -533,7 +593,7 @@
     breakpoints: {
       // when window width is >= 320px
       320: {
-        slidesPerView: 2,
+        slidesPerView: 1,
         spaceBetween: 20
       },
       // when window width is >= 480px

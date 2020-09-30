@@ -331,6 +331,10 @@ a.ri-btn-outline:hover {
 /* ===================
        Roof Types
    =================== */
+.roof-tile-area {
+  overflow: hidden;
+}
+
 /* ===================
        Testimonial
    =================== */
