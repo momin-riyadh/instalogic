@@ -132,8 +132,11 @@ a.request-quote-btn:hover {
 /* ==========================
        Main Slider/ Banner
    ========================== */
-.ri-main-banner {
+.ri-banner-area {
   position: relative;
+}
+
+.ri-main-banner {
   width: 100%;
   height: 100%;
 }

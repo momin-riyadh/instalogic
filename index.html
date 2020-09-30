@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="assets/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="assets/css/glide.core.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -83,14 +84,23 @@
 <!--=============================
             Main Slider/Banner
     =============================-->
-<div class="ri-banner-area">
-  <div class="ri-main-banner">
-    <div class="ri-banner-wrapper">
-      <img class="img-fluid" src="assets/images/banner_one.jpg" alt="">
+<div class="ri-banner-area glide">
+  <div class="glide__track" data-glide-el="track">
+    <div class="ri-main-banner glide__slides">
+      <div class="ri-banner-wrapper glide__slide">
+        <img class="img-fluid" src="assets/images/banner_one.jpg" alt="">
+      </div>
+      <div class="ri-banner-wrapper glide__slide">
+        <img class="img-fluid" src="assets/images/banner_two.jpg" alt="">
+      </div>
+      <div class="ri-banner-wrapper glide__slide">
+        <img class="img-fluid" src="assets/images/banner_three.jpg" alt="">
+      </div>
+
     </div>
-    <div class="ri-banner-content">
-      <img class="img-fluid" src="assets/images/transparent_logo.png" alt="">
-    </div>
+  </div>
+  <div class="ri-banner-content">
+    <img class="img-fluid" src="assets/images/transparent_logo.png" alt="">
   </div>
 </div>
 
@@ -501,6 +511,17 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <script src="assets/js/plugins.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/glide.js"></script>
+<script>
+  var glide = new Glide('.glide', {
+    type: 'carousel',
+    startAt: 0,
+    perView: 1,
+    Autoplay: true
+  })
+
+  glide.mount()
+</script>
 
 <script>
   var mySwiper = new Swiper('.swiper-container', {
