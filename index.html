@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="assets/css/swiper.css">
   <link rel="stylesheet" href="assets/css/glide.core.css">
 
   <meta name="theme-color" content="#fafafa">
@@ -266,6 +266,9 @@
     =============================-->
 
 <section class="roof-tile-area my-5">
+  <div class="container text-center">
+    <h2 class="mb-5">ROOF TYPES</h2>
+  </div>
   <div class="roof-tile">
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
@@ -553,8 +556,10 @@
     slidesPerView: 5,
     spaceBetween: 30,
     slidesPerGroup: 1,
-    loop: true,
-    loopFillGroupWithBlank: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
     breakpoints: {
       // when window width is >= 320px
       320: {
