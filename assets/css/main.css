@@ -65,11 +65,33 @@ a.request-quote-btn:hover {
 .ri-nav nav li {
   list-style: none;
   float: left;
+  position: relative;
 }
 .ri-nav nav a {
+  transition: all 0.3s ease-in-out;
   text-decoration: none;
   padding: 1rem;
   color: #393535;
+}
+.ri-nav nav a:hover:after {
+  content: "";
+  position: absolute;
+  top: 40px;
+  /* <-- change value to better position */
+  left: 50%;
+  /* centers the element's left edge */
+  margin-left: -20px;
+  /* <-- moves it back half it's own width */
+  width: 0;
+  /* <-- don't need unit on 0 */
+  height: 0;
+  /* <-- don't need unit on 0 */
+  xxmargin: 0px auto;
+  /* <-- eliminate, use above margin */
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 25px solid #ff7314;
+  /* <-- change to bottom for up arrow */
 }
 
 .ri-top-social {
@@ -100,6 +122,8 @@ a.request-quote-btn:hover {
 }
 
 .ri-logo a img {
+  margin-top: -60px;
+  height: 70px;
   width: auto;
 }
 
