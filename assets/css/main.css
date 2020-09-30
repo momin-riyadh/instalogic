@@ -404,8 +404,18 @@ p.testimonial-text {
 
 .bottom-cta {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  min-height: 250px;
+}
+@media (min-width: 601px) {
+  .bottom-cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 .bottom-cta span:first-of-type {
   text-transform: uppercase;
