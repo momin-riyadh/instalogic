@@ -207,8 +207,7 @@ a.ri-btn-outline:hover {
   overflow: hidden;
 }
 
-.ri-statistics-area {
-  width: 100%;
+.ri-statistics-main {
   display: flex;
   justify-content: space-between;
   align-items: center;
