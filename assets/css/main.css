@@ -52,11 +52,10 @@ a.request-quote-btn:hover {
   height: 70px;
   justify-content: space-between;
   align-items: center;
-  overflow: hidden;
 }
 
 .ri-nav {
-  display: flex;
+  display: none;
 }
 .ri-nav nav ul {
   margin: 0;
@@ -73,6 +72,7 @@ a.request-quote-btn:hover {
   text-decoration: none;
   padding: 1rem;
   color: #393535;
+  vertical-align: middle;
 }
 .ri-nav nav a:hover {
   transition: all 0.3s ease-in-out;
@@ -95,6 +95,11 @@ a.request-quote-btn:hover {
   border-right: 25px solid transparent;
   border-bottom: 25px solid #ff7314;
   /* <-- change to bottom for up arrow */
+}
+@media (min-width: 601px) {
+  .ri-nav {
+    display: flex;
+  }
 }
 
 .ri-top-social {
@@ -125,9 +130,16 @@ a.request-quote-btn:hover {
 }
 
 .ri-logo a img {
-  margin-top: -60px;
-  height: 70px;
+  margin-top: 0;
+  height: 50px;
   width: auto;
+}
+@media (min-width: 601px) {
+  .ri-logo a img {
+    margin-top: -60px;
+    height: 70px;
+    width: auto;
+  }
 }
 
 /* ==========================
@@ -565,7 +577,6 @@ table.ri-schedule .address + span strong {
 /* when class="float-panel fixed" */
 .fixed {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  padding: 4px 0;
   animation: slide-down 0.7s;
   opacity: 0.9;
 }
@@ -579,6 +590,9 @@ table.ri-schedule .address + span strong {
     opacity: 0.9;
     transform: translateY(0);
   }
+}
+.fixed {
+  overflow: hidden;
 }
 .fixed a img {
   margin-top: 0 !important;
