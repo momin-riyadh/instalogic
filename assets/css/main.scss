@@ -25,20 +25,21 @@ $font-ralway: 'Raleway', sans-serif;
 
   background-position: top left, /* this positions the first image */
   top right; /* this positions the second image */
-  background-repeat: repeat; /* this applies to both images */
+  background-repeat: no-repeat; /* this applies to both images */
 
   background-size: 35%, 100%;
   background-color: $nav-bg;
 
   @media (max-width: 600px) {
     background-size: 0, 100%;
+    background-repeat: repeat;
   }
 }
 
 .ri-topbar {
   display: flex;
   height: 45px;
-  width: 350px;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
 
@@ -49,7 +50,7 @@ $font-ralway: 'Raleway', sans-serif;
   }
 
   @media (min-width: 600px) {
-    background-size: 192px, 100%;
+    width: 350px;
   }
 }
 
