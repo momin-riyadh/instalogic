@@ -73,9 +73,6 @@
 })();
 
 
-
-
-
 (function () {
   window.addEventListener('DOMContentLoaded', function () {
     var glide = new Glide('.glide', {
