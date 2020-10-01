@@ -413,6 +413,10 @@ a.ri-btn-outline {
   overflow: hidden;
 }
 
+p.carousel-text {
+  font-size: 1rem;
+}
+
 /* ===================
        Testimonial
    =================== */
@@ -634,6 +638,17 @@ table.ri-schedule {
 
   }
 
+}
+
+.ri-footer-logo {
+  a img {
+    width: 140px;
+    height: auto;
+    @media(min-width: 601px) {
+      width: 200px;
+      height: auto;
+    }
+  }
 }
 
 .ri-footer-copyright {

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="011c1fee-882c-4216-94df-efe2bf86b840" name="Default Changelist" comment="" />
+    <list default="true" id="011c1fee-882c-4216-94df-efe2bf86b840" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +29,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -35,6 +41,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Momin\Self\instalogic" />
       <recent name="C:\Momin\Self\instalogic\assets\js" />
       <recent name="C:\Momin\Self\instalogic\assets\css" />
       <recent name="C:\Momin\Self\instalogic\assets" />
@@ -47,8 +54,8 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="git add ." />
-      <command value="git push" />
       <command value="git commit -am &quot;fix and deploy&quot;" />
+      <command value="git push" />
     </option>
   </component>
   <component name="RunManager">
@@ -78,7 +85,7 @@
       <workItem from="1601435120234" duration="11844000" />
       <workItem from="1601453946358" duration="9129000" />
       <workItem from="1601473796877" duration="13842000" />
-      <workItem from="1601518330206" duration="6478000" />
+      <workItem from="1601518330206" duration="7158000" />
     </task>
     <servers />
   </component>
@@ -101,22 +108,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="350" y="142" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1601352004480" />
-    <state width="1345" height="120" key="GridCell.Tab.0.bottom" timestamp="1601525178811">
+    <state width="1345" height="120" key="GridCell.Tab.0.bottom" timestamp="1601525493155">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="120" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601525178811" />
-    <state width="1345" height="120" key="GridCell.Tab.0.center" timestamp="1601525178811">
+    <state width="1345" height="120" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601525493155" />
+    <state width="1345" height="120" key="GridCell.Tab.0.center" timestamp="1601525493155">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="120" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601525178811" />
-    <state width="1345" height="120" key="GridCell.Tab.0.left" timestamp="1601525178811">
+    <state width="1345" height="120" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601525493155" />
+    <state width="1345" height="120" key="GridCell.Tab.0.left" timestamp="1601525493155">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="120" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601525178811" />
-    <state width="1345" height="120" key="GridCell.Tab.0.right" timestamp="1601525178811">
+    <state width="1345" height="120" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601525493155" />
+    <state width="1345" height="120" key="GridCell.Tab.0.right" timestamp="1601525493155">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="120" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601525178811" />
+    <state width="1345" height="120" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601525493155" />
     <state width="1345" height="92" key="GridCell.Tab.1.bottom" timestamp="1601487901400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -153,10 +160,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1601486521935" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1601525176599">
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1601525623606">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1601525176599" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1601525623606" />
     <state x="346" y="49" width="672" height="160" key="search.everywhere.popup" timestamp="1601447306891">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
