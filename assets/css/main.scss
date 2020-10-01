@@ -73,6 +73,7 @@ a.request-quote-btn {
   height: 70px;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
 }
 
 .ri-nav {
@@ -389,7 +390,7 @@ a.ri-btn-outline {
 /* ===================
        Roof Types
    =================== */
-.roof-tile-area{
+.roof-tile-area {
   overflow: hidden;
 }
 
@@ -631,15 +632,42 @@ table.ri-schedule {
        Float Panel
    =================== */
 .float-panel {
-  width:100%;background:white;z-index:3000;padding:30px 0;transform: translateZ(0);
-  transition:all 0.5s; /* Effect for switching from .fixed to static */
+  width: 100%;
+  background: white;
+  z-index: 3000;
+  transform: translateZ(0);
+  transition: all 0.5s; /* Effect for switching from .fixed to static */
 }
-.float-panel .content-area {margin:10px auto;}
-.float-panel a {font-size:16px;text-decoration:none;color:#444;display:inline-block;padding:10px 20px;}
-.float-panel .fa-gg {color:#F0595C;font-size:30px;vertical-align:middle;transition:all 1s;}
+
+.float-panel .content-area {
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+//.float-panel a {
+//  font-size: 16px;
+//  text-decoration: none;
+//  color: #444;
+//  display: inline-block;
+//  padding: 10px 20px;
+//}
+
+.float-panel .fa-gg {
+  color: #F0595C;
+  font-size: 30px;
+  vertical-align: middle;
+  transition: all 1s;
+}
+
 /* when class="float-panel fixed" */
-.fixed {box-shadow:0 2px 6px rgba(0,0,0,0.2);padding:4px 0;animation:slide-down 0.7s;opacity:0.9;}
-.fixed .fa-gg {transform: rotate(360deg); }
+.fixed {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  padding: 4px 0;
+  animation: slide-down 0.7s;
+  opacity: 0.9;
+}
+
+
 @keyframes slide-down {
   0% {
     opacity: 0;
@@ -648,5 +676,16 @@ table.ri-schedule {
   100% {
     opacity: 0.9;
     transform: translateY(0);
+  }
+}
+
+.fixed {
+  a {
+    img{
+      margin-top: 0!important;
+      height: 50px;
+      width: auto;
+      object-fit: contain;
+    }
   }
 }

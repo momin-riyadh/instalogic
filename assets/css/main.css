@@ -52,6 +52,7 @@ a.request-quote-btn:hover {
   height: 70px;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
 }
 
 .ri-nav {
@@ -544,7 +545,6 @@ table.ri-schedule .address + span strong {
   width: 100%;
   background: white;
   z-index: 3000;
-  padding: 30px 0;
   transform: translateZ(0);
   transition: all 0.5s;
   /* Effect for switching from .fixed to static */
@@ -552,14 +552,7 @@ table.ri-schedule .address + span strong {
 
 .float-panel .content-area {
   margin: 10px auto;
-}
-
-.float-panel a {
-  font-size: 16px;
-  text-decoration: none;
-  color: #444;
-  display: inline-block;
-  padding: 10px 20px;
+  overflow: hidden;
 }
 
 .float-panel .fa-gg {
@@ -577,10 +570,6 @@ table.ri-schedule .address + span strong {
   opacity: 0.9;
 }
 
-.fixed .fa-gg {
-  transform: rotate(360deg);
-}
-
 @keyframes slide-down {
   0% {
     opacity: 0;
@@ -590,6 +579,12 @@ table.ri-schedule .address + span strong {
     opacity: 0.9;
     transform: translateY(0);
   }
+}
+.fixed a img {
+  margin-top: 0 !important;
+  height: 50px;
+  width: auto;
+  object-fit: contain;
 }
 
 /*# sourceMappingURL=main.css.map */
