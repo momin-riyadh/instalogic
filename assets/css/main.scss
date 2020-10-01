@@ -25,13 +25,13 @@ $font-ralway: 'Raleway', sans-serif;
 
   background-position: top left, /* this positions the first image */
   top right; /* this positions the second image */
-  background-repeat: no-repeat; /* this applies to both images */
+  background-repeat: repeat; /* this applies to both images */
 
   background-size: 35%, 100%;
   background-color: $nav-bg;
 
   @media (max-width: 600px) {
-    background-size: 192px, 100%;
+    background-size: 0, 100%;
   }
 }
 
