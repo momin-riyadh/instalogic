@@ -29,6 +29,10 @@ $font-ralway: 'Raleway', sans-serif;
 
   background-size: 35%, 100%;
   background-color: $nav-bg;
+
+  @media (max-width: 600px) {
+    background-size: 192px, 100%;
+  }
 }
 
 .ri-topbar {
@@ -42,6 +46,10 @@ $font-ralway: 'Raleway', sans-serif;
     text-decoration: none;
     color: $white-color;
     font-size: 0.8rem;
+  }
+
+  @media (min-width: 600px) {
+    background-size: 192px, 100%;
   }
 }
 

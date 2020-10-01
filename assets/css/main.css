@@ -15,6 +15,11 @@
   background-size: 35%, 100%;
   background-color: #383434;
 }
+@media (max-width: 600px) {
+  .ri-topbar-area {
+    background-size: 192px, 100%;
+  }
+}
 
 .ri-topbar {
   display: flex;
@@ -27,6 +32,11 @@
   text-decoration: none;
   color: #ffffff;
   font-size: 0.8rem;
+}
+@media (min-width: 600px) {
+  .ri-topbar {
+    background-size: 192px, 100%;
+  }
 }
 
 a.request-quote-btn {
