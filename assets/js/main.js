@@ -1,5 +1,5 @@
-(function (){
-  window.addEventListener('DOMContentLoaded', function (){
+(function () {
+  window.addEventListener('DOMContentLoaded', function () {
     var mySwiper = new Swiper('.swiper-container', {
       slidesPerView: 6,
       spaceBetween: 30,
@@ -37,8 +37,8 @@
 })();
 
 
-(function() {
-  window.addEventListener('DOMContentLoaded', function (){
+(function () {
+  window.addEventListener('DOMContentLoaded', function () {
     var roofTile = new Swiper('.roof-tile', {
       slidesPerView: 5,
       spaceBetween: 30,
@@ -69,5 +69,22 @@
         }
       }
     })
+  })
+})();
+
+
+
+
+
+(function () {
+  window.addEventListener('DOMContentLoaded', function () {
+    var glide = new Glide('.glide', {
+      type: 'slider',
+      startAt: 0,
+      perView: 1,
+      autoplay: 5000
+    })
+
+    glide.mount()
   })
 })();
