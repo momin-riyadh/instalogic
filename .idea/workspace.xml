@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="011c1fee-882c-4216-94df-efe2bf86b840" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/name.length" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +97,7 @@
       <workItem from="1601731175758" duration="751000" />
       <workItem from="1601732237313" duration="1027000" />
       <workItem from="1601776700431" duration="30000" />
+      <workItem from="1602680913263" duration="428000" />
     </task>
     <servers />
   </component>
@@ -177,6 +180,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1601486521935" />
+    <state x="462" y="208" key="cloudConfig.PluginsDialog" timestamp="1602680948428">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="208" key="cloudConfig.PluginsDialog/0.0.1366.728@0.0.1366.728" timestamp="1602680948428" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1601733847674">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -202,6 +202,15 @@ a.request-quote-btn {
   height: 100%;
 }
 
+.ri-banner-wrapper{
+  img{
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+    -o-object-fit: cover;
+  }
+}
+
 
 .ri-banner-content {
   position: absolute;
@@ -211,6 +220,12 @@ a.request-quote-btn {
   z-index: 5;
   width: 100%;
   height: 100%;
+  img{
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+    -o-object-fit: cover;
+  }
 }
 
 /* ===================
