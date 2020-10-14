@@ -12,7 +12,7 @@
   /* this positions the second image */
   background-repeat: no-repeat;
   /* this applies to both images */
-  background-size: 35%, 100%;
+  background-size: contain, 100%;
   background-color: #383434;
 }
 @media (max-width: 600px) {
